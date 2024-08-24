@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #3498DB;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 10px;
+}
+
+hr {
+  border-color: #2C3E50;
+}
+
+img {
+  width: 150px;
+  border: 2px solid;
+  background-color: #2C3E50;
+}
+
+h1 {
+  width: 500px;
+  align-self: normal;
+  padding: 0;
+  margin: 0;
+}
+
+header p {
+  font-size: 24px;
+  align-self: last baseline;
+  width: 100vw;
+  position: relative;
+  left: -180px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #2C3E50;
+}
+
+footer a {
+  color: #c2c2c2;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+main {
+  margin-top: 2%;
+}
+
+.card {
+  background-color: #cad7d8;
+  border-radius: 15px;
+  border: 5px solid;
+  padding: 24px;
+  width: 400px;
+  height: 100px;
+  padding-top: 70px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 220px;
+  top: 550px;
+  gap: 230px;
+}
+
+.card {
+  transition: transform 0.2s cubic-bezier(.87,.3,.49,1);
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  box-sizing: border-box;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  font-size: 20px;
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  background-color: #2C3E50;
+}
