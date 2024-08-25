@@ -8,6 +8,12 @@ p:not(.text-footer) {
   text-wrap: pretty;
 }
 
+h3 {
+  font-size: 26px;
+  text-align: center;
+  margin: 28px;
+}
+
 @media (min-width: 10vh) {
   .card-information, .study-information {
     overflow: auto;
@@ -53,6 +59,7 @@ h2:first-child {
   padding: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center
 }
 
