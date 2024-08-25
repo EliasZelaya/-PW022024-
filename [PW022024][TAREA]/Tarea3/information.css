@@ -5,6 +5,7 @@ p:not(.text-footer) {
   margin: 6px;
   width: 20vw;
   text-align: center;
+  text-wrap: pretty;
 }
 
 @media (min-width: 10vh) {
