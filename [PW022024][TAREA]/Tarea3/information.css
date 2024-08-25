@@ -1,0 +1,57 @@
+p:not(.text-footer) {
+  font-size: 24px;
+  font-weight: 700;
+  color: #5a5a5a;
+  margin: 6px;
+  width: 20vw;
+  text-align: center;
+}
+
+@media (min-width: 10vh) {
+  .card-information, .study-information {
+    overflow: auto;
+  }
+}
+
+.likes {
+  border: none;
+  border-radius: 0;
+  width: 4%;
+}
+
+img {
+  border-radius: 50%;
+  width: 5%;
+  position: relative;
+  left: -35vw;
+}
+
+h2:first-child {
+  text-shadow: 0px 0px 10px #503f3f;
+  font-size: 32px;
+  text-align: center;
+}
+
+.conocimientos {
+  width: 500px;
+  text-align: center;
+  text-wrap: pretty;
+}
+
+.card-information, .study-information {
+  background-color: #cad7d8;
+  border-radius: 50px;
+  height: 69vh;
+  width: 30vw;
+  border: 5px solid;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+main {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
